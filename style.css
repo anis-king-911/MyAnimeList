@@ -1,0 +1,36 @@
+body {margin: 0;padding: 0;font-family: sans-serif;}
+fieldset {width: 88%;margin: 10px auto;  display: none;}
+form.UploadForm {display: grid;gap: 4px;}
+input, button {font-size: 18px;font-weight: bold;outline: none;}
+
+div.ListContainer {
+  width: 720px;
+  border-radius: 4px;
+  background: #ddd;
+  box-shadow: 0 0 3px 1px #000;
+  margin: 10px auto;
+  padding: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 6px;
+}
+.elm {
+  border: 1.2px solid #000;
+  border-radius: 4px;
+  overflow: hidden;
+  background: red;
+  width: 32%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.elm img {
+  width: 100%;
+}
+.elm a {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 6px;
+}
